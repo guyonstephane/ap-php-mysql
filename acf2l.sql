@@ -13,10 +13,10 @@ DROP TABLE IF EXISTS `message`;
 
 CREATE TABLE `message` (
   `idMessage` int(4) NOT NULL AUTO_INCREMENT,
-  `nomPersonne` varchar(20) NOT NULL,
-  `melPersonne` varchar(70) NOT NULL,
+  `nomPersonne` varchar(50) NOT NULL,
+  `melPersonne` varchar(50) NOT NULL,
   `dateNaissance` date NOT NULL,
-  `objet` varchar(20) NOT NULL,
+  `objet` varchar(50) NOT NULL,
    PRIMARY KEY (`idMessage`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
